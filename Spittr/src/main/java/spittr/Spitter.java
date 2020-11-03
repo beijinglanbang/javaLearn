@@ -11,6 +11,8 @@ public class Spitter {
 
   private Long id;
   
+
+
   @NotNull
   @Size(min=5, max=16)
   private String username;
